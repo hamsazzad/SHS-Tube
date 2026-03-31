@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SHSTube" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/metallic_blue</item>
+        <item name="colorPrimaryVariant">@color/metallic_blue_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/copper_orange</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:colorBackground">@color/obsidian_black</item>
+        <item name="android:windowBackground">@color/obsidian_black</item>
+        <item name="android:statusBarColor">@color/obsidian_black</item>
+        <item name="android:navigationBarColor">@color/surface_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Splash Screen theme -->
+    <style name="Theme.SHSTube.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/obsidian_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.SHSTube</item>
+    </style>
+
+</resources>
